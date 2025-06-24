@@ -1,24 +1,32 @@
 # 🏠 House Price Prediction using Linear Regression
 
-A simple yet effective machine learning project to predict house prices based on square footage, number of bedrooms, and bathrooms using Linear Regression.
+A beginner-friendly Machine Learning project that uses Linear Regression to predict house prices based on house area (square footage), number of bedrooms, and bathrooms. This project is ideal for understanding the fundamentals of regression and feature-based prediction.
 
 ---
 
-## 📌 Task Description
+## 📌 Project Objective
 
-**Implement a linear regression model to predict the prices of houses based on:**
+The objective is to predict the **house sale price** (`SalePrice`) using key features from the Ames Housing Dataset:
 
-- Square footage (`GrLivArea`)
-- Number of Bedrooms (`BedroomAbvGr`)
-- Number of Bathrooms (`FullBath`)
-
-📂 Dataset Link: [Kaggle Competition](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+- **`GrLivArea`** → Above ground living area (in square feet)
+- **`BedroomAbvGr`** → Number of bedrooms above ground
+- **`FullBath`** → Number of full bathrooms
 
 ---
 
-## 🚀 How to Run the Project
+## 📂 Dataset Used
 
-### 1️⃣ Clone or Download the Project
-```bash
-git clone https://github.com/yourusername/HousePricePrediction.git
-cd HousePricePrediction
+Dataset Source: [Kaggle - House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data)
+
+File used: `train.csv`
+
+This dataset includes 1460 samples with 81 features describing residential homes in Ames, Iowa.
+
+---
+
+## 🧠 What is Linear Regression?
+
+Linear Regression is a **supervised machine learning algorithm** that finds the linear relationship between input features and the target value.
+
+**Formula**:
+
